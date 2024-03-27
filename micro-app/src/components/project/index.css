@@ -1,0 +1,73 @@
+h2 {
+    background: linear-gradient(to right,#e8ba25 , #ff8a00, #da1b60);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: justify;
+}
+
+.heading{
+    color: white;
+    font-style: italic;
+}
+
+li {
+    background: linear-gradient(to right, #3498db, #2ecc71, #3498db);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+p {
+    text-align: justify;
+    padding-left: 8px;
+    font-style: italic;
+}
+
+
+.predictor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-align{
+    display: flex;
+    flex-direction: column;
+    padding-left: 7%;  
+    padding-right: 1%;
+    background:#404040;
+    color:#da1b60
+}
+.img-para{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+.maps-align{
+    display: flex;
+    flex-direction: column;
+}
+
+.map-img{
+    height: 72vh;
+    width: 40vw;
+    padding: 10px;
+    border-radius: 30px;
+}
+.Navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: end;
+    position: fixed;
+    align-self: flex-end;
+}
+
+.section{
+    color: aliceblue;
+    font-size: small;
+    font-style: italic;
+}

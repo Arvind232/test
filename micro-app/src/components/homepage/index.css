@@ -1,0 +1,62 @@
+
+
+p{
+    color: black;
+}
+.heading{
+    color: white;
+}
+
+.header-align{
+    padding-left: 7%;  
+    padding-right: 1%;
+    background:#ffffff;
+    color:#da1b60
+}
+
+.image-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.microplastic-image{
+    height: 40vh;
+    width: 30vw;
+    margin: 5px;
+    border-radius: 20px;
+    
+}
+
+.link-color{
+    color: blue;
+}
+
+.imgAndLink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-para{
+    font-size: 10px;
+    color:rgb(0, 0, 0);
+}
+
+.paraAndImage{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.problem-statement{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+}

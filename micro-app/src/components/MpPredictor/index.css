@@ -1,0 +1,67 @@
+.Predictor-align {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin: 5px;
+  background-color: aliceblue;
+  color: black;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  font-style: italic;
+  padding: 10px;
+}
+.para-head {
+  text-decoration: underline;
+  font-style: bold;
+}
+.button-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #04aa6d;
+}
+
+.button1:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
+}
+
+.redcolor-para {
+  color: red;
+  font-size: 12px;
+}
+
+.button2:hover {
+  background-color: #008cba;
+  color: white;
+}
